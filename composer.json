@@ -1,0 +1,28 @@
+{
+    "name": "yashwantsb/formbuilder",
+    "description": "Form builder",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yashwant Bhuimber",
+            "email": "yashwantsb@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yashwantsb/formbuilder": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yashwantsb\\Formbuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yashwantsb\\Formbuilder\\FormBuilderServiceProvider"
+            ]
+        }
+    }
+}
