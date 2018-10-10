@@ -10,9 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "yashwantsb/formbuilder": "dev-master"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "Yashwantsb\\Formbuilder\\": "src/"
